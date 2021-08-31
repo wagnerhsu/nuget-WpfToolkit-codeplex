@@ -1,23 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-    <PropertyGroup>
-        <RootNamespace>System.Windows.Controls.DataVisualization</RootNamespace>
-        <TargetFrameworks>netcoreapp3.0;net4</TargetFrameworks>
-        <UseWPF>true</UseWPF>
-        <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>DotNetProjects.snk</AssemblyOriginatorKeyFile>
-        <Description>WPF Toolkit Data Visualization Controls</Description>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>DotNetProjects.WpfToolkit.DataVisualization</PackageId>
-        <Authors>DotNetProjects</Authors>
-        <Company>DotNetProjects</Company>
-        <Product>DotNetProjects.WPF Toolkit</Product>
-        <Copyright>2019 DotNetProjects</Copyright>
-        <Version>1.0.0</Version>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <FileVersion>1.0.0.0</FileVersion>
-        <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
-    </PropertyGroup>
-    <ItemGroup>
-        <EmbeddedResource Include="System.Windows.Controls.DataVisualization\**\*.png" /> 
-    </ItemGroup>
+  <PropertyGroup>
+    <RootNamespace>System.Windows.Controls.DataVisualization</RootNamespace>
+    <TargetFrameworks>netcoreapp3.0;net4</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DotNetProjects.snk</AssemblyOriginatorKeyFile>
+    <Description>WPF Toolkit Data Visualization Controls</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DotNetProjects.WpfToolkit.DataVisualization</PackageId>
+    <Authors>DotNetProjects</Authors>
+    <Company>DotNetProjects</Company>
+    <Product>DotNetProjects.WPF Toolkit</Product>
+    <Copyright>2019 DotNetProjects</Copyright>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System.Windows.Controls.DataVisualization\**\*.png" />
+  </ItemGroup>
 </Project>
